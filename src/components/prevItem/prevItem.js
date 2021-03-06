@@ -6,7 +6,9 @@ const prevItem = (props) => {
             <div className="item">
                 <div className="dateDiv">{props.date}</div>
                 <p>{props.text}</p>
-                <button className="removeButton">Remove</button>                        
+                <button 
+                    className="removeButton"
+                    onClick={props.rem}>Remove</button>                        
                 <div className="clearFix"></div>
                 <hr/>
             </div>

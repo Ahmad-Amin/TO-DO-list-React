@@ -8,8 +8,8 @@ const prevItemGenerator = (props) => {
                 <PrevItem 
                     date={i.date}
                     text={i.text}
-                    key={val}>
-
+                    key={val}
+                    rem = {()=>props.rem(val)}>
                 </PrevItem>
             );
     })
