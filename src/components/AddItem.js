@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 
 const AddItem = (props) => {
 
-    // const [newInput, setInput] = useState('');
     return(
         <Fragment>
             

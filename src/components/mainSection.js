@@ -19,6 +19,10 @@ class mainSection extends Component{
 
     addNewItem = () => {
 
+        if(this.state.newInput.length === 0){
+            alert('Cannot Add Empty List!!');
+            return;
+        }
         const date = getCurrentDate();
         let prevState = [
             ...this.state.listitemsData
